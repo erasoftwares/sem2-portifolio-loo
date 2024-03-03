@@ -61,7 +61,10 @@ public class GerenciaBanco {
                             break;
 			}
 			default:
-                            throw new IllegalArgumentException("Opcao invalida: " + nOpcao);
+                            System.out.println("");
+                            System.out.println("<< Selecao invalida >>");
+                            System.out.println("");
+                            break;
 			}
 		}
 		sc.close();
